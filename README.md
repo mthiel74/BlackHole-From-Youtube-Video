@@ -225,12 +225,27 @@ These are **exactly** what the code implements!
    - Crossed equatorial plane → Check if hit accretion disk
 5. **Texture lookup**: If disk hit, compute color based on radius and velocity
 
-## 🎥 Generated Videos
+## 🎥 Example Videos
 
-- `black_hole_flyby_slow.mp4`: 240-frame polar orbit (10 seconds @ 24fps)
-- `black_hole_inclined_orbit.mp4`: 360-frame inclined orbit (15 seconds @ 24fps)
-- `kerr_black_hole_spin.mp4`: Rotating Kerr black hole visualization
-- `kerr_black_hole_HR_orbit.mp4`: High-resolution Kerr orbit (1000×750)
+This repository includes example videos demonstrating the ray tracer's capabilities:
+
+### Schwarzschild Black Hole
+- **`BlackHoleGemini3.mp4`** (5.7 MB) - Schwarzschild black hole with accretion disk
+  - Shows gravitational lensing and photon sphere effects
+  - Demonstrates Doppler beaming on approaching side of disk
+
+### Kerr (Rotating) Black Hole
+- **`kerr_black_hole_HR_orbit.mp4`** (11 MB) - High-resolution Kerr black hole orbital animation
+  - Frame-dragging effects visible in asymmetric shadow
+  - D-shaped shadow characteristic of rotating black holes
+  - 1000×750 resolution
+
+These videos showcase:
+- ✨ Gravitational lensing creating multiple images
+- 🌀 Accretion disk with realistic brightness gradients
+- 🔴 Doppler beaming (approaching side brighter)
+- ⚫ Black hole shadow and photon sphere
+- 🎬 Smooth orbital camera movements
 
 ## ⚙️ Configuration Parameters
 

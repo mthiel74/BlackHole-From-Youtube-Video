@@ -41,14 +41,11 @@ env/
 .DS_Store
 Thumbs.db
 
-# Generated frames and videos (optional - comment out if you want to track them)
+# Generated frames (but allow example videos in root)
 frames/
 *_frames/
 Kerr_frames/
 Kerr_frames_HR/
-*.mp4
-*.avi
-*.mov
 
 # Generated images
 *.png
