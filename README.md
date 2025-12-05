@@ -17,6 +17,40 @@ This project contains **scientifically accurate** black hole visualizations base
 - ⚡ **GPU-Accelerated**: Uses Numba JIT compilation for high-performance rendering
 - 🎯 **Physically Accurate**: Implements actual geodesic equations from GR
 
+## 📁 Repository Structure - Which Files to Use
+
+### **Main Files to Use:**
+
+| File | Description | Use This For |
+|------|-------------|--------------|
+| **`BlackHoleAccretion.ipynb`** | Schwarzschild black hole with comprehensive annotations | **Primary tutorial** - Start here for learning |
+| **`KerrBlackHole.ipynb`** | Rotating (Kerr) black hole with frame-dragging effects | Advanced rotating black holes |
+| **`SchwarzschildBHfromVideo.ipynb`** | Streamlined Schwarzschild implementation | Quick experiments and rendering |
+| **`blackholeaccretion.py`** | Standalone Python script | Command-line usage without Jupyter |
+
+### **Documentation:**
+
+| File | Description |
+|------|-------------|
+| **`PHYSICS.md`** | Deep mathematical derivations and equations |
+| **`EXAMPLES.md`** | Practical usage tutorials and code examples |
+| **`README.md`** | This file - project overview |
+
+### **Backup/Archive Files (Don't Use):**
+
+These files are preserved for reference but should **not** be used:
+
+- `*_original.ipynb` - Original notebooks before cleanup
+- `BlackHoleAccretion_broken.ipynb` - Old version with errors (replaced)
+
+### **Quick Start Guide:**
+
+1. **Complete beginner?** → Start with `BlackHoleAccretion.ipynb`
+2. **Want to understand the physics?** → Read `PHYSICS.md` alongside the notebooks
+3. **Need working code examples?** → Check `EXAMPLES.md`
+4. **Want rotating black holes?** → Use `KerrBlackHole.ipynb`
+5. **Prefer command-line?** → Run `python blackholeaccretion.py`
+
 ## 🔬 The Physics
 
 ### Is This Real Physics or Just a Cartoon?
